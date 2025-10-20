@@ -10,7 +10,7 @@ This paper presents EmotionViA, a real-time framework for recognizing emotions f
 
 This section outlines the methodology for facial emotion recognition from videos, integrating CNNs, LSTMs, and an attention mechanism for enhanced performance. CNNs extract key facial features from video frames, while LSTMs capture temporal dependencies to track evolving emotions. An intra-modal attention mechanism highlights relevant facial cues, supported by tensor construction, tensor train layers for efficient high-dimensional processing, and dense layers for pattern refinement. This approach ensures accurate recognition by focusing on expressive facial regions like the eyes, nose, and mouth.
 
-<img style="max-width: 100%;" src="https://github.com/swerizwan/emopoi/blob/main/resources/architecture.png" alt="EMOPOI Overview">
+<img style="max-width: 100%;" src="https://github.com/rizwanchouhan/emovid/blob/main/resources/architecture.png" alt="EMOPOI Overview">
 
 # Workflow
 
@@ -20,7 +20,7 @@ To get started, ensure you have the necessary libraries installed:
 2. OpenCV
 3. Numpy
 4. Dlib
-5. EmoPOI files
+5. Emovid files
 6. GUI (Tkinter)
 
 # Installation
@@ -40,7 +40,7 @@ To get started, ensure you have the necessary libraries installed:
    pip install numpy
    ```
 
-4. **Option 1:** Download the Dlib and EmoPOI files as external zip files and extract them into the main project directory/folder where your project files are stored.
+4. **Option 1:** Download the Dlib and emovid files as external zip files and extract them into the main project directory/folder where your project files are stored.
 
    **Option 2:** If you're using PyCharm IDE, you can install the Dlib library directly in the project settings by navigating to Configure Interpreter and adding your required libraries from there.
 
@@ -48,7 +48,7 @@ To get started, ensure you have the necessary libraries installed:
 
 - **FER-2013:** You can download the FER2013 dataset from [here](https://www.kaggle.com/datasets/msambare/fer2013).
 
-- **EmoPOI:** EmoPOI dataset samples are available [here](https://drive.google.com/file/d/1TtJNkrWSFkIMW72-xnpBuRD7LTuxSEal/view?usp=sharing). The complete EmoPOI dataset will be available upon request for research purposes after the paper is accepted.
+- **EmotionViA:** EmotionViA dataset samples are available [here](https://drive.google.com/file/d/1TtJNkrWSFkIMW72-xnpBuRD7LTuxSEal/view?usp=sharing). The complete EmotionViA dataset will be available upon request for research purposes after the paper is accepted.
 
 - **AffectNet:** You can download the AffectNet dataset from [here](http://mohammadmahoor.com/affectnet/).
 
